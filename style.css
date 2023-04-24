@@ -1,0 +1,406 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    width: fit-content;
+    height: 5571px;
+    background: #040c18;
+}
+
+.logo {
+    position: absolute;
+    width: 62.56px;
+    height: 16.02px;
+    left: 80.66px;
+    top: 70.29px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav ul {
+    position: absolute;
+    width: 666px;
+    height: 25px;
+    left: 180px;
+    top: 53px;
+}
+
+nav ul li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-flex;
+    list-style: none;
+    padding-right: 50px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+}
+
+.signin {
+    position: absolute;
+    width: 235px;
+    height: 58px;
+    left: 1040px;
+    top: 70px;
+    font-family: 'Manrope';
+    font-style: normal;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.signup {
+    position: absolute;
+    width: 152px;
+    height: 58px;
+    left: 1113px;
+    top: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF4820;
+    border-radius: 5px;
+}
+
+.hero {
+    position: absolute;
+    width: 1149px;
+    height: 701.59px;
+    left: 80px;
+    top: 113px;
+}
+
+.header {
+    width: 779.29px;
+    margin-top: 40px;
+}
+
+.header h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.header p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #81AFDD;
+}
+
+.form1 {
+    margin-top: 70px;
+}
+
+.form1 input {
+    background: #052D56;
+    border-radius: 5px 0px 0px 5px;
+    width: 300px;
+    height: 49px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.form1 button {
+    width: 130px;
+    height: 51px;
+    background: #FF4820;
+    border-radius: 0px 4px 4px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 296px;
+    border: none;
+
+}
+
+
+.heroImage {
+    position: absolute;
+    left: 555.91px;
+    top: -9px;
+}
+
+.heroImage img {
+    width: 600px;
+    height: 600px;
+}
+
+.blur {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: -336px;
+    top: -305px;
+
+    background: #002853;
+    filter: blur(282px);
+}
+
+
+.companies_logo ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 46.48px;
+
+    position: absolute;
+    width: 670.56px;
+    height: 24.15px;
+    left: 300px;
+    top: 893px;
+}
+
+.companies_logo ul li {
+    list-style: none;
+}
+
+/* section two */
+
+
+.section_two {
+    position: absolute;
+    width: 1170px;
+    height: 695px;
+    left: 80px;
+    top: 1044px;
+    background: #042C54;
+    max-width: 1170px;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.eclipse {
+    position: absolute;
+    width: 581px;
+    height: 281px;
+    left: -286px;
+    top: -40px;
+    background: #0F4279;
+    filter: blur(160px);
+}
+
+.details {
+    /* position: absolute;
+    width: 1063px;
+    height: 575px;
+    left: 187px;
+    top: 1101px; */
+}
+
+.details .span {
+    position: absolute;
+    width: 38px;
+    height: 3px;
+    left: 80px;
+    top: 40px;
+
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+
+.details h1 {
+    position: absolute;
+    width: 151px;
+    height: 75px;
+    left: 80px;
+    top: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 75px;
+    /* identical to box height, or 312% */
+
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+}
+
+.details p {
+    position: absolute;
+    width: 731px;
+    height: 92px;
+    left: 401px;
+    top: 11px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #81AFDD;
+}
+
+.details h2 {
+    position: absolute;
+    left: 80px;
+    top: 170px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 45px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.details .p_second {
+    position: absolute;
+    width: 143px;
+    height: 30px;
+    left: 1014px;
+    top: 188px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+
+}
+
+.tools {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 50px;
+    top: 470px;
+}
+
+.tools h3 {
+    color: white;
+}
+
+.tools .span2 {
+    width: 38px;
+    height: 3px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+
+.text {
+    color: #81AFDD;
+    line-height: 30px;
+    width: 334px;
+    height: 193px;
+}
+
+
+@media (max-width:414px) {
+
+    /* body{
+        position: relative;
+    } */
+    .hamburger{
+        position: relative;
+        left: 33em;
+        top: 70px;
+
+    }
+    .topNav{
+        margin-left: -230px;
+    }
+    .logo{
+        margin-left: -70px;
+    }
+    .hamburger div{
+        margin-bottom: 5px;
+        width: 40px;
+        height: 4px;
+        background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    }
+    .hamburger div:nth-child(2){
+        width: 30px !important;
+        margin-left: 10px;
+    }
+
+    .heroImage{
+        display: none;
+    }
+    nav ul,.signin,.signup{
+        display: none;
+    }
+    .hero{
+        margin-left: -70px;
+        /* max-width: 70px; */
+    }
+    .header{
+       max-width: fit-content; 
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+    .companies_logo {
+        position: absolute;
+        left: -280px;
+        top: -180px;
+    }
+
+
+
+    .section_two {
+        position: absolute;
+        width: 600px;
+        height: 695px;
+        left: 40px;
+        top: 1044px;
+        background: #042C54;
+        max-width: 1170px;
+        overflow: hidden;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    
+    .eclipse {
+        position: absolute;
+        width: 581px;
+        height: 281px;
+        left: -286px;
+        top: -40px;
+        background: #0F4279;
+        filter: blur(160px);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
