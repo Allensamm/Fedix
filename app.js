@@ -11,6 +11,14 @@ document.querySelector('.hamburger').addEventListener('click', () => {
     }
 })
 
+// preloader
+window.addEventListener('load', function() {
+  var preloader = document.querySelector('#preloader');
+  preloader.style.display = 'none';
+});
+
+
+// preloader
 const hidden = document.querySelectorAll('.hidden');
 
 const observer = new IntersectionObserver(entries => {
